@@ -1,6 +1,6 @@
 # FullStack Application
 
-## Fetures covered
+## Features covered
 
 1)  Product Listing all products and prices in card layout
 2)	Perform CRUD operations  -> Add new product,Update product, delete product

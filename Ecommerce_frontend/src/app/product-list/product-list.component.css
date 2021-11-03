@@ -1,0 +1,44 @@
+p {
+    font-family: Lato;
+    }
+    .example-card {
+    margin: 4px;
+    height: 60vh;
+    background-color:ghostwhite;
+    
+    }
+
+    .ratimg{
+        color:darkgoldenrod;
+    }
+
+    mat-card img{
+        object-fit: cover; 
+        align-self: center;
+        width: 100%;
+        height: 50%;
+      }
+
+    .matttitle{
+    font-size:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left:0px;
+    color: chocolate;
+
+    }
+    
+    mat-card-title{
+    margin-left:-14px;
+    color:darkcyan;
+    font-size:40px;
+    
+    }
+
+    .row-card-group{
+        height: 200px;
+    }
+
+   
+
+   

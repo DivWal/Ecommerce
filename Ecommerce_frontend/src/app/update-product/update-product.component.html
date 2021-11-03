@@ -1,0 +1,45 @@
+<div class="col-md-6 offset-md-3">
+    <h3> Update Product </h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> Product Name</label>
+            <input type="text" class ="form-control" id = "product_name"
+                [(ngModel)] = "product.product_name" name = "product_name">
+        </div>
+    
+        <div class="form-group">
+            <label>Product Retail Price</label>
+            <input type="text" class ="form-control" id = "retail_price"
+                [(ngModel)] = "product.retail_price" name = "retail_price">
+        </div>
+    
+        <div class="form-group">
+            <label> Brand</label>
+            <input type="text" class ="form-control" id = "brand"
+                [(ngModel)] = "product.brand" name = "brand">
+        </div>
+
+        <div class="form-group">
+            <label> Description</label>
+            <input type="text" class ="form-control" id = "description"
+                [(ngModel)] = "product.description" name = "description">
+        </div>
+
+        <div class="form-group">
+            <label> Image</label>
+            <input type="text" class ="form-control" id = "image"
+                [(ngModel)] = "product.image" name = "image">
+        </div>
+
+        <div class="form-group">
+            <label> Product rating</label>
+            <input type="text" class ="form-control" id = "product_rating"
+                [(ngModel)] = "product.product_rating" name = "product_rating">
+        </div>
+
+    
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    
+    </form>
+    </div> 
